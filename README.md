@@ -23,7 +23,7 @@ JAVA SWING기반 미니 pc방 관리프로그램 (팀 프로젝트)
 
 # 실행방법
 
-  1>관리자 프로그램
+  1.관리자 프로그램
  mgr폴더 내의 ManagerMain.java 파일로 관리자 로그인 화면을 먼저 띄웁니다. 관리자 로그인 인증을 
 거치고 나면 관리자 프로그램이 실행됩니다.  관리자 프로그램 상에는 사용자 PC사용 현황과 회원관리 항목, 
 물품관리 항목, 시재 및 매상관리, 시간추가, 계산 항목을 각각 선택하여 실행할 수 있습니다.
@@ -34,7 +34,7 @@ PC모니터 화면상에서는 현재 사용중인 사용자의 ID와 남은 시
 관리자 프로그램은 메인 서버와 연동되어 있으므로 사용자들이 모두 접속을 중지하기 전까지는 강제 종료할 수 
 없도록 설계되었습니다.
 
-   2>사용자  프로그램   
+   2.사용자  프로그램   
   cnt폴더 내의 ClientMain.java 파일로 사용자 로그인 화면을 먼저 띄웁니다. 로그인 화면에서는 회원가입,
 아이디/비밀번호 분실시의 검색 기능 등을 추가하였습니다. 회원가입된 회원의 정보는 관리자 프로그램 및
 DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적합 인증을 통하여 최종 승인되도록 설계하였습니다.
@@ -58,14 +58,15 @@ DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적�
   2> Oracle DB
  해당 프로젝트의 데이터베이스는 'Oracle Database 11g express Version'으로 구현하였습니다. 사용된 테이블은 '물품','매상',PCManager(회원정보)' 세 종이며,
 각각 관련 프로세스에 맞게 연결되어 있습니다.  각 테이블의 항목은 다음으로 구성되어 있습니다.
-Table 'PCMANAGER'			Table '매상'		      Table '물품'
------------	-----------------       ------------------------------------	-------------------------
-ID        VARCHAR2(15) 	거래번호 NOT NULL NUMBER    	상품번호 NOT NULL NUMBER 
-PW        VARCHAR2(15) 	상품번호 NOT NULL NUMBER 		상품명 NOT NULL VARCHAR2(30) 
-NAME      VARCHAR2(15) 	상품명 NOT NULL VARCHAR2(30) 	가격 NOT NULL NUMBER   
+
+Table 'PCMANAGER'			    Table '매상'		                Table '물품'
+
+ID        VARCHAR2(15) 	거래번호 NOT NULL NUMBER    	  상품번호 NOT NULL NUMBER 
+PW        VARCHAR2(15) 	상품번호 NOT NULL NUMBER 		    상품명 NOT NULL VARCHAR2(30) 
+NAME      VARCHAR2(15) 	상품명 NOT NULL VARCHAR2(30)  	가격 NOT NULL NUMBER   
 TEL1      VARCHAR2(15) 	매출액          NUMBER(38)   		재고 NOT NULL NUMBER  
 TEL2      VARCHAR2(15) 	매출일자 NOT NULL DATE
-TEL3      VARCHAR2(15)	매입여부          NUMBER  
+TEL3      VARCHAR2(15)	 매입여부          NUMBER  
 EMAIL1    VARCHAR2(15) 	매출수량          NUMBER 
 EMAIL2    VARCHAR2(15) 	매입자ID          VARCHAR2(30) 
 TIME      NUMBER(10)   
