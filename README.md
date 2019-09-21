@@ -59,21 +59,9 @@ DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적�
  해당 프로젝트의 데이터베이스는 'Oracle Database 11g express Version'으로 구현하였습니다. 사용된 테이블은 '물품','매상',PCManager(회원정보)' 세 종이며,
 각각 관련 프로세스에 맞게 연결되어 있습니다.  각 테이블의 항목은 다음으로 구성되어 있습니다.
 
-Table 'PCMANAGER'			    Table '매상'		                Table '물품'
-
-ID        VARCHAR2(15) 	거래번호 NOT NULL NUMBER    	  상품번호 NOT NULL NUMBER 
-PW        VARCHAR2(15) 	상품번호 NOT NULL NUMBER 		    상품명 NOT NULL VARCHAR2(30) 
-NAME      VARCHAR2(15) 	상품명 NOT NULL VARCHAR2(30)  	가격 NOT NULL NUMBER   
-TEL1      VARCHAR2(15) 	매출액          NUMBER(38)   		재고 NOT NULL NUMBER  
-TEL2      VARCHAR2(15) 	매출일자 NOT NULL DATE
-TEL3      VARCHAR2(15)	 매입여부          NUMBER  
-EMAIL1    VARCHAR2(15) 	매출수량          NUMBER 
-EMAIL2    VARCHAR2(15) 	매입자ID          VARCHAR2(30) 
-TIME      NUMBER(10)   
-ON_OFF    NUMBER(1)    
-SEAT      NUMBER(2)    
- <table>
-   <tr><td colspan="6">테이블></td></tr>
+ 
+ <table align="center">
+   <tr><td colspan="6">테이블</td></tr>
    <tr><td colspan="2">PCMANAGER</td><td colspan="2">매상</td><td colspan="2">물품</td></tr> 
    <tr><td>이름</td><td>VARCHAR2(15)</td><td>이름</td><td>속성</td><td>이름</td><td>속성</td></tr>
    <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>NOT NULL NUMBER</td><td>상품번호</td><td>NOT NULL NUMBER </td></tr>
