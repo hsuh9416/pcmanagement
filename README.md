@@ -84,6 +84,6 @@ DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적�
 
 # 참고
 
- <a href="https://drive.google.com/open?id=1kNt8BDoTsilsA7u31ODFqCp_JZVZr4AO">팀프로젝트 중 본인 역할 분담분 설명서(PDF)]</a><br>
+ <a href="https://drive.google.com/open?id=1kNt8BDoTsilsA7u31ODFqCp_JZVZr4AO">팀프로젝트 중 본인 역할 분담분 설명서(PDF)</a><br>
  <a href="https://drive.google.com/open?id=1WtERjyNFkspwlDFMkLOpS1nj3XVThunA">팀프로젝트 설명서(PDF)[참고용]</a>
 
