@@ -59,20 +59,23 @@ DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적�
  해당 프로젝트의 데이터베이스는 'Oracle Database 11g express Version'으로 구현하였습니다. 사용된 테이블은 '물품','매상',PCManager(회원정보)' 세 종이며,
 각각 관련 프로세스에 맞게 연결되어 있습니다.  각 테이블의 항목은 다음으로 구성되어 있습니다.
 
-Table 'PCMANAGER'			    Table '매상'		                Table '물품'
-
-ID        VARCHAR2(15) 	거래번호 NOT NULL NUMBER    	  상품번호 NOT NULL NUMBER 
-PW        VARCHAR2(15) 	상품번호 NOT NULL NUMBER 		    상품명 NOT NULL VARCHAR2(30) 
-NAME      VARCHAR2(15) 	상품명 NOT NULL VARCHAR2(30)  	가격 NOT NULL NUMBER   
-TEL1      VARCHAR2(15) 	매출액          NUMBER(38)   		재고 NOT NULL NUMBER  
-TEL2      VARCHAR2(15) 	매출일자 NOT NULL DATE
-TEL3      VARCHAR2(15)	 매입여부          NUMBER  
-EMAIL1    VARCHAR2(15) 	매출수량          NUMBER 
-EMAIL2    VARCHAR2(15) 	매입자ID          VARCHAR2(30) 
-TIME      NUMBER(10)   
-ON_OFF    NUMBER(1)    
-SEAT      NUMBER(2)    
  
+ <table align="center">
+   <tr><td colspan="6" align="center">테이블</td></tr>
+   <tr><td colspan="2">PCMANAGER</td><td colspan="2">매상</td><td colspan="2">물품</td></tr> 
+   <tr><td>이름</td><td>VARCHAR2(15)</td><td>이름</td><td>속성</td><td>이름</td><td>속성</td></tr>
+   <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>NOT NULL NUMBER</td><td>상품번호</td><td>NOT NULL NUMBER </td></tr>
+   <tr><td>PW</td><td>VARCHAR2(15)</td><td>상품번호</td><td>NOT NULL NUMBER</td><td>상품명</td><td>NOT NULL VARCHAR2(30)</td></tr>
+   <tr><td>NAME</td><td>VARCHAR2(15)</td><td>상품명</td><td>NOT NULL VARCHAR2(30)</td><td>가격</td><td>NOT NULL NUMBER</td></tr>
+   <tr><td>TEL1</td><td>VARCHAR2(15)</td><td>매출액</td><td>NUMBER(38)</td><td>재고</td><td>NOT NULL NUMBER</td></tr>
+   <tr><td>TEL2</td><td>VARCHAR2(15)</td><td>매출일자</td><td>NOT NULL DATE</td><td rowspan="7" colspan="2"></td></tr>
+   <tr><td>TEL3</td><td>VARCHAR2(15)</td><td>매입여부</td><td>NUMBER</td></tr>
+   <tr><td>EMAIL1</td><td>VARCHAR2(15)</td><td>매출수량</td><td>NUMBER</td></tr>
+   <tr><td>EMAIL2</td><td>VARCHAR2(15)</td><td>매입자ID</td><td>VARCHAR2(30)</td></tr>
+   <tr><td>TIME</td><td>NUMBER(10)</td><td rowspan="3" colspan="2"></td></tr>
+   <tr><td>ON_OFF</td><td>NUMBER(1)</td></tr>
+   <tr><td>SEAT</td><td>NUMBER(2)</td></tr>
+</table>
 
 # 프로그램 설계에 관련된 기술
  해당 프로그램은 JAVA 프로그래밍 언어로 설계되어 있습니다. 또한 DB 구현을 위한 데이터베이스 언어(SQL)가 포함되어 있습니다. 화면 설계는 JAVA API 중
