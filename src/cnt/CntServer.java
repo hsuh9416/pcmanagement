@@ -20,7 +20,7 @@ public class CntServer extends JPanel implements Runnable {
 	private Socket socket;
 	private ObjectInputStream ois;
 	private ObjectOutputStream oos;
-	private String serverIP="192.168.6.27";//"192.168.6.11";//각 pc마다 바뀔 서버 IP
+	private String serverIP="172.30.1.6";//각 pc마다 바뀔 서버 IP
 	private String userID;//유저ID
 	private String userName;
 

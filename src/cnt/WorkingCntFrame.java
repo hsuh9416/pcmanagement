@@ -80,24 +80,24 @@ public class WorkingCntFrame extends JFrame implements ActionListener,Runnable {
  		prepayMntL1.setFont(labelF);
  		prepayMntL2 = new JLabel(fixTime*25+"¿ø",SwingConstants.RIGHT);
  		prepayMntL2.setFont(labelF);
- 		messageB = new JButton(new ImageIcon("lib/messa.png"));
+ 		messageB = new JButton(new ImageIcon("src/lib/messa.png"));
 		messageB.setBorderPainted(false);
 		messageB.setFocusPainted(false);
 		messageB.setContentAreaFilled(false);
 		
-		orderB = new JButton(new ImageIcon("lib/foods.png"));
+		orderB = new JButton(new ImageIcon("src/lib/foods.png"));
 		orderB.setBorderPainted(false);
 		orderB.setFocusPainted(false);
 		orderB.setContentAreaFilled(false);
 		
 	
-		stopB = new JButton(new ImageIcon("lib/chains.png"));
+		stopB = new JButton(new ImageIcon("src/lib/chains.png"));
 		stopB.setOpaque(true);
 		stopB.setBorderPainted(false);
 		stopB.setFocusPainted(false);
 		stopB.setContentAreaFilled(false);
 		
-		exitB = new JButton(new ImageIcon("lib/stop.png"));
+		exitB = new JButton(new ImageIcon("src/lib/stop.png"));
 		exitB.setBorderPainted(false);
 		exitB.setFocusPainted(false);
 		exitB.setContentAreaFilled(false);

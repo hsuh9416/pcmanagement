@@ -79,17 +79,17 @@ public class LoginFrame extends JFrame implements ActionListener,Runnable {
 		loginB = new JButton("로그인");
 		loginB.setFont(loginF2);
 		//(버튼 Type 2)
-		joinB = new JButton(new ImageIcon("lib/signup.png"));
+		joinB = new JButton(new ImageIcon("src/lib/signup.png"));
 		joinB.setBorderPainted(false);
 		joinB.setFocusPainted(false);
 		joinB.setContentAreaFilled(false);
 		
-		loseIDB = new JButton(new ImageIcon("lib/findid.png"));
+		loseIDB = new JButton(new ImageIcon("src/lib/findid.png"));
 		loseIDB.setBorderPainted(false);
 		loseIDB.setFocusPainted(false);
 		loseIDB.setContentAreaFilled(false);
 		
-		losePWB = new JButton(new ImageIcon("lib/findpass.png"));
+		losePWB = new JButton(new ImageIcon("src/lib/findpass.png"));
 		losePWB.setBorderPainted(false);
 		losePWB.setFocusPainted(false);
 		losePWB.setContentAreaFilled(false);
