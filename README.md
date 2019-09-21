@@ -61,7 +61,7 @@ DB에 실시간으로 반영됩니다. 회원가입의 인증은 이메일 적�
 
  
  <table align="center">
-   <tr><td colspan="6">테이블</td></tr>
+   <tr><td colspan="6" align="center">테이블</td></tr>
    <tr><td colspan="2">PCMANAGER</td><td colspan="2">매상</td><td colspan="2">물품</td></tr> 
    <tr><td>이름</td><td>VARCHAR2(15)</td><td>이름</td><td>속성</td><td>이름</td><td>속성</td></tr>
    <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>NOT NULL NUMBER</td><td>상품번호</td><td>NOT NULL NUMBER </td></tr>
