@@ -76,17 +76,17 @@ SEAT      NUMBER(2)
    <tr><td colspan="6">테이블></td></tr>
    <tr><td colspan="2">PCMANAGER</td><td colspan="2">매상</td><td colspan="2">물품</td></tr> 
    <tr><td>이름</td><td>VARCHAR2(15)</td><td>이름</td><td>속성</td><td>이름</td><td>속성</td></tr>
-   <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>PW</td><td>VARCHAR2(15)</td><td>상품번호</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>NAME</td><td>VARCHAR2(15)</td><td>상품명</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>TEL1</td><td>VARCHAR2(15)</td><td>매출액</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>TEL2</td><td>VARCHAR2(15)</td><td>매출일자</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>TEL3</td><td>VARCHAR2(15)</td><td>매입여부</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>EMAIL1</td><td>VARCHAR2(15)</td><td>매출수량</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>EMAIL2</td><td>VARCHAR2(15)</td><td>매입자ID</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>TIME</td><td>NUMBER(10)</td><td rowspan="3" colspan="2"></td><td rowspan="3" colspan="2"></td></tr>
-   <tr><td>ON_OFF</td><td>NUMBER(1)</td><td>름</td><td>속성</td><td>름</td><td>속성</td></tr>
-   <tr><td>SEAT</td><td>NUMBER(2)</td><td>름</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>NOT NULL NUMBER</td><td>상품번호</td><td>NOT NULL NUMBER </td></tr>
+   <tr><td>PW</td><td>VARCHAR2(15)</td><td>상품번호</td><td>NOT NULL NUMBER</td><td>상품명</td><td>NOT NULL VARCHAR2(30)</td></tr>
+   <tr><td>NAME</td><td>VARCHAR2(15)</td><td>상품명</td><td>NOT NULL VARCHAR2(30)</td><td>가격</td><td>NOT NULL NUMBER</td></tr>
+   <tr><td>TEL1</td><td>VARCHAR2(15)</td><td>매출액</td><td>NUMBER(38)</td><td>재고</td><td>NOT NULL NUMBER</td></tr>
+   <tr><td>TEL2</td><td>VARCHAR2(15)</td><td>매출일자</td><td>NOT NULL DATE</td><td rowspan="7" colspan="2"></td></tr>
+   <tr><td>TEL3</td><td>VARCHAR2(15)</td><td>매입여부</td><td>NUMBER</td></tr>
+   <tr><td>EMAIL1</td><td>VARCHAR2(15)</td><td>매출수량</td><td>NUMBER</td></tr>
+   <tr><td>EMAIL2</td><td>VARCHAR2(15)</td><td>매입자ID</td><td>VARCHAR2(30)</td></tr>
+   <tr><td>TIME</td><td>NUMBER(10)</td><td rowspan="3" colspan="2"></td></tr>
+   <tr><td>ON_OFF</td><td>NUMBER(1)</td></tr>
+   <tr><td>SEAT</td><td>NUMBER(2)</td></tr>
 </table>
 
 # 프로그램 설계에 관련된 기술
