@@ -78,3 +78,9 @@ SEAT      NUMBER(2)
  해당 프로그램은 JAVA 프로그래밍 언어로 설계되어 있습니다. 또한 DB 구현을 위한 데이터베이스 언어(SQL)가 포함되어 있습니다. 화면 설계는 JAVA API 중
 대표적으로 JFRAME, SWING 등이 적용되었으며 그밖에 다양한 API을 적용시켰습니다. JAVA 프로그래밍 기술은 멀티스레드, 소켓프로그래밍을 포함하며,
 객체지향의 개념에 충실하도록 다수의 bean 클래스를 작성하여 연계시킨 구조로 설계하였습니다.
+
+# 참고
+
+ <a href="#">팀프로젝트 중 본인 역할 분담분 설명서(PDF)[작성중]</a>
+ <a href="https://drive.google.com/open?id=1WtERjyNFkspwlDFMkLOpS1nj3XVThunA">팀프로젝트 설명서(PDF)[참고용]</a>
+
