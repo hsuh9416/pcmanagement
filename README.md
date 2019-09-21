@@ -72,7 +72,22 @@ EMAIL2    VARCHAR2(15) 	매입자ID          VARCHAR2(30)
 TIME      NUMBER(10)   
 ON_OFF    NUMBER(1)    
 SEAT      NUMBER(2)    
- 
+ <table>
+   <tr><td colspan="6">테이블></td></tr>
+   <tr><td colspan="2">PCMANAGER</td><td colspan="2">매상</td><td colspan="2">물품</td></tr> 
+   <tr><td>이름</td><td>VARCHAR2(15)</td><td>이름</td><td>속성</td><td>이름</td><td>속성</td></tr>
+   <tr><td>ID</td><td>VARCHAR2(15)</td><td>거래번호</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>PW</td><td>VARCHAR2(15)</td><td>상품번호</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>NAME</td><td>VARCHAR2(15)</td><td>상품명</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>TEL1</td><td>VARCHAR2(15)</td><td>매출액</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>TEL2</td><td>VARCHAR2(15)</td><td>매출일자</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>TEL3</td><td>VARCHAR2(15)</td><td>매입여부</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>EMAIL1</td><td>VARCHAR2(15)</td><td>매출수량</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>EMAIL2</td><td>VARCHAR2(15)</td><td>매입자ID</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>TIME</td><td>NUMBER(10)</td><td rowspan="3" colspan="2"></td><td rowspan="3" colspan="2"></td></tr>
+   <tr><td>ON_OFF</td><td>NUMBER(1)</td><td>름</td><td>속성</td><td>름</td><td>속성</td></tr>
+   <tr><td>SEAT</td><td>NUMBER(2)</td><td>름</td><td>속성</td><td>름</td><td>속성</td></tr>
+</table>
 
 # 프로그램 설계에 관련된 기술
  해당 프로그램은 JAVA 프로그래밍 언어로 설계되어 있습니다. 또한 DB 구현을 위한 데이터베이스 언어(SQL)가 포함되어 있습니다. 화면 설계는 JAVA API 중
