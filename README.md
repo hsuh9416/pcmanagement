@@ -81,6 +81,6 @@ SEAT      NUMBER(2)
 
 # 참고
 
- <a href="#">팀프로젝트 중 본인 역할 분담분 설명서(PDF)[작성중]</a>
+ <a href="#">팀프로젝트 중 본인 역할 분담분 설명서(PDF)[작성중]</a><br>
  <a href="https://drive.google.com/open?id=1WtERjyNFkspwlDFMkLOpS1nj3XVThunA">팀프로젝트 설명서(PDF)[참고용]</a>
 
